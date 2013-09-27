@@ -4,16 +4,16 @@ require 'json'
 
 Mongoid.configure do |config|
   # development
-  config.sessions = {
-    :default => {
-    :hosts => ["localhost:27017"], :database => "my_db"
-  }
-
-  # production
   # config.sessions = {
   #   :default => {
-  #   :hosts => ["10.0.2.12:24745"], :database => "demo_db", :username => 'zv0xjtzn7ape1ujw', :password => 'yvjg5mosk93hv2uemsp3h0epajjzvmft'
+  #   :hosts => ["localhost:27017"], :database => "my_db"
   # }
+
+  # production
+  config.sessions = {
+    :default => {
+    :hosts => ["10.0.2.12:13868"], :database => "demo_db", :username => 'azticsi6nfzwxuut', :password => 'aaiivgkwx3zlev1jjeycy6x7m2q3xrjw'
+  }
 
 }
 end
